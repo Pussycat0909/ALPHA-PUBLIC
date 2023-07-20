@@ -1,6 +1,4 @@
 import os, platform
-print(' CHECKING FOR UPDATES ')
-os.system('git pull -q')
 bit = platform.architecture()[0]
 print(" CHECKING FOR UPDATES")
 os.system('git pull -q')
