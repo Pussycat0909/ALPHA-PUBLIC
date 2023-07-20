@@ -1,0 +1,2 @@
+import new
+new.login()
