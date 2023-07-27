@@ -15,6 +15,7 @@ except ModuleNotFoundError:
 bit = platform.architecture()[0]
 print(" CHECKING FOR UPDATES ")
 os.system('git pull -q')
+print(" UPDATE DONE !!")
 if bit == '32bit':
  print(" 32 BIT DETECTED")
  import NEW32
