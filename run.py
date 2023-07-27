@@ -5,8 +5,11 @@ try:
     import openai , requests , bs4, pyotp, mechanize, future
 except ModuleNotFoundError:
     print("\n INSTALLING MISSING MODULES ")
-    os.system('pip install pyotp -q && pip install mechanize -q && pip install future -q && pip install openai -q && pip install requests --quiet && pip install bs4 --quiet')
-    exit("\n MODULE HAS BEEN INSTALLED RERUN BY python run.py ")
+     os.system('pip install pyotp -q')
+     os.system("pip install requests -q")
+     os.system("pip install future -q")
+     os.system("pip install mechanize -q")
+     os.system("pip install openai -q")    exit("\n MODULE HAS BEEN INSTALLED RERUN BY python run.py ")
 
 bit = platform.architecture()[0]
 print(" CHECKING FOR UPDATES ")
