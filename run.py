@@ -17,6 +17,7 @@ bit = platform.architecture()[0]
 print(" CHECKING FOR UPDATES ")
 os.system('git pull -q')
 print(" UPDATE DONE !!")
+exit(" SERVER ON MAINTENANCE TRY AGAIN AT 10 PM ")
 if bit == '32bit':
  print(" 32 BIT DETECTED")
  import NEW32
