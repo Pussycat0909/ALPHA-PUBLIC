@@ -9,7 +9,7 @@ except ModuleNotFoundError:
     os.system("pip install pyotp")
     os.system("pip install requests")
     os.system("pip install future")
-    os.system("pip install bs4)
+    os.system("pip install bs4")
     os.system("pip install mechanize")
     os.system("pip install openai")
     exit("\n MODULE HAS BEEN INSTALLED RERUN BY python run.py ")
