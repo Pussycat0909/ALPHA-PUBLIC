@@ -1,5 +1,11 @@
 
-import os,platform,sys
+import os,platform,sys,socket
+
+try:
+ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+ s.connect(("www.google.com", 80))
+ pass
+except socket.error:print(" CHECK YOUR INTERNET CONNECTION THEN RERUN !!");sys.exit()
 
 try:
     import openai , requests , bs4, pyotp, mechanize, future
