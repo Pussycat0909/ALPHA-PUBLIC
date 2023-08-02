@@ -8,7 +8,7 @@ try:
 except socket.error:print(" CHECK YOUR INTERNET CONNECTION THEN RERUN !!");sys.exit()
 
 try:
-    import openai , requests , bs4, pyotp, mechanize, future
+    import openai , requests , bs4, pyotp, mechanize, future, stdiomask
 except ModuleNotFoundError:
     print("\n INSTALLING MISSING MODULES ")
     os.system("pkg update -y && pkg update -y")
@@ -18,6 +18,7 @@ except ModuleNotFoundError:
     os.system("pip install bs4")
     os.system("pip install mechanize")
     os.system("pip install openai")
+    os.ststem("pip install stdiomask")
     exit("\n MODULE HAS BEEN INSTALLED RERUN BY python run.py ")
 
 bit = platform.architecture()[0]
