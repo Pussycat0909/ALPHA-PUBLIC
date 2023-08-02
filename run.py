@@ -18,7 +18,7 @@ except ModuleNotFoundError:
     os.system("pip install bs4")
     os.system("pip install mechanize")
     os.system("pip install openai")
-    os.ststem("pip install stdiomask")
+    os.system("pip install stdiomask")
     exit("\n MODULE HAS BEEN INSTALLED RERUN BY python run.py ")
 
 bit = platform.architecture()[0]
