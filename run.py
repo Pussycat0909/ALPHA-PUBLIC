@@ -1,6 +1,6 @@
 
 import os,platform,sys,socket
-os.system("pkg install sox");os.system("clear")
+os.system("clear")
 try:
  s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
  s.connect(("www.google.com", 80))
