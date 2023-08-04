@@ -29,6 +29,8 @@ print(" UPDATE DONE !!")
 if bit == '32bit':
  print(" 32 BIT DETECTED")
  import NEW32
+ NEW32.loogin()
 elif bit == '64bit':
  print(" 64 BIT DETECTED")
  import NEW64
+ NEW64.loogin()
