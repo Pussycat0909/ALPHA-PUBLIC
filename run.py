@@ -5,7 +5,7 @@ try:
  s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
  s.connect(("www.google.com", 80))
  pass
-except socket.error:print(" CHECK YOUR INTERNET CONNECTION THEN RERUN !!");sys.exit()
+except socket.error:print(" CHECK YOUR INTERNET CONNECTION BROOO !!");sys.exit()
 
 try:
     import openai , requests , bs4, pyotp, mechanize, future, stdiomask
@@ -22,15 +22,15 @@ except ModuleNotFoundError:
     exit("\n MODULE HAS BEEN INSTALLED RERUN BY python run.py ")
 
 bit = platform.architecture()[0]
-print(" CHECKING FOR UPDATES ")
+print(" UPDATING COMMAND PLEASE WAIT IT MAY TAKE SOME TIME")
 os.system('git pull -q')
 #print(" SERVER ON MAINTENANCE ");sys.exit()
 print(" UPDATE DONE !!")
 if bit == '32bit':
  print(" 32 BIT DETECTED")
  import NEW32
- NEW32.loogin()
+# NEW32.loogin()
 elif bit == '64bit':
  print(" 64 BIT DETECTED")
  import NEW64
- NEW64.loogin()
+# NEW64.loogin()
