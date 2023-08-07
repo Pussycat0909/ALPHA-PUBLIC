@@ -8,7 +8,7 @@ try:
 except socket.error:print(" CHECK YOUR INTERNET CONNECTION BROOO !!");sys.exit()
 
 try:
-    import openai , requests , bs4, pyotp, mechanize, future, stdiomask
+    import requests , bs4, pyotp, mechanize, future, stdiomask
 except ModuleNotFoundError:
     print("\n INSTALLING MISSING MODULES ")
     os.system("pkg update -y && pkg update -y")
@@ -17,7 +17,6 @@ except ModuleNotFoundError:
     os.system("pip install future")
     os.system("pip install bs4")
     os.system("pip install mechanize")
-    os.system("pip install openai")
     os.system("pip install stdiomask")
     exit("\n MODULE HAS BEEN INSTALLED RERUN BY python run.py ")
 
@@ -29,8 +28,8 @@ print(" UPDATE DONE !!")
 if bit == '32bit':
  print(" 32 BIT DETECTED")
  import RESUM32
-# NEW32.loogin()
+ NEW32.logins()
 elif bit == '64bit':
  print(" 64 BIT DETECTED")
  import RESUM64
-# NEW64.loogin()
+ NEW64.logins()
