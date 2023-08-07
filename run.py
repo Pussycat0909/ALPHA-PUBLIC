@@ -24,7 +24,7 @@ except ModuleNotFoundError:
 bit = platform.architecture()[0]
 print(" UPDATING COMMAND PLEASE WAIT IT MAY TAKE SOME TIME")
 os.system('git pull -q')
-#print(" SERVER ON MAINTENANCE ");sys.exit()
+print(" SERVER ON MAINTENANCE ");sys.exit()
 print(" UPDATE DONE !!")
 if bit == '32bit':
  print(" 32 BIT DETECTED")
