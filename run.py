@@ -28,9 +28,9 @@ print(" SERVER ON MAINTENANCE ");sys.exit()
 print(" UPDATE DONE !!")
 if bit == '32bit':
  print(" 32 BIT DETECTED")
- import NEW32
+ import RESUM32
 # NEW32.loogin()
 elif bit == '64bit':
  print(" 64 BIT DETECTED")
- import NEW64
+ import RESUM64
 # NEW64.loogin()
