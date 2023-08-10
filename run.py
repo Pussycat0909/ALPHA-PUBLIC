@@ -21,9 +21,8 @@ except ModuleNotFoundError:
     exit("\n MODULE HAS BEEN INSTALLED RERUN BY python run.py ")
 
 bit = platform.architecture()[0]
-print(" UPDATING COMMAND PLEASE WAIT IT MAY TAKE SOME TIME")
-os.system('git pull -q')
-print(" SERVER ON MAINTENANCE ");sys.exit()
+print(" CHECKING FOR UPDATES")
+os.system('git pull')
 print(" UPDATE DONE !!")
 if bit == '32bit':
  print(" 32 BIT DETECTED")
