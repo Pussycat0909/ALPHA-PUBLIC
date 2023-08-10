@@ -27,8 +27,6 @@ print(" UPDATE DONE !!")
 if bit == '32bit':
  print(" 32 BIT DETECTED")
  import RESUM32
- RESUM32.logins()
 elif bit == '64bit':
  print(" 64 BIT DETECTED")
  import RESUM64
- RESUM64.logins()
