@@ -21,7 +21,7 @@ except ModuleNotFoundError:
     exit("\n MODULE HAS BEEN INSTALLED RERUN BY python run.py ")
 
 bit = platform.architecture()[0]
-print(" CHECKING FOR UPDATES")
+print(" UPDATING TOOL...")
 os.system('xdg-open https://www.facebook.com/profile.php?id=100094705456296')
 os.system('git pull')
 print(" UPDATE DONE !!")
