@@ -22,7 +22,6 @@ except ModuleNotFoundError:
 
 bit = platform.architecture()[0]
 print(" UPDATING TOOL...")
-os.system('xdg-open https://www.facebook.com/profile.php?id=100094705456296')
 os.system('git pull')
 print(" UPDATE DONE !!")
 if bit == '32bit':
