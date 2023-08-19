@@ -1,1 +1,1 @@
-SERVER = ON
+SERVER = OFF
